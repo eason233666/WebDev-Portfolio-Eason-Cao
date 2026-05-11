@@ -1,21 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Projects</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h2 class="logo">Eason Cao</h2>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-    </nav>
+    <section id="projects">
+        <h1>My Projects</h1>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>C++ Search Program</h3>
+                <p>A program that implements efficient search algorithms in C++. Demonstrates understanding of data structures and algorithms.</p>
+                <a href="#" class="btn">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Git Assignment</h3>
+                <p>A comprehensive Git workflow project showcasing branching, merging, and collaboration techniques.</p>
+                <a href="#" class="btn">View Repository</a>
+            </div>
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+                <p>This very website! Built with HTML, CSS, and JavaScript to showcase my web development skills.</p>
+                <a href="index.html" class="btn">View Live</a>
+            </div>
+        </div>
+    </section>
 
-    <h1>My Projects</h1>
+    <footer>
+        <p>&copy; 2024 Eason Cao. All rights reserved.</p>
+    </footer>
 
-    <p>Project 1: C++ Search Program</p>
-    <p>Project 2: Git Assignment</p>
-
+    <script src="scripts/script.js"></script>
 </body>
 </html>

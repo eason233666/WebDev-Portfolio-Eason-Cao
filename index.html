@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <h2 class="logo">Eason Cao</h2>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="projects.html">Projects</a>
-    </nav>
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Welcome to My Portfolio</h1>
+            <p>Hi, I'm Eason Cao, a passionate web developer and programmer.</p>
+            <a href="about.html" class="btn">Learn More</a>
+        </div>
+    </section>
 
-    <h1>Welcome to My Portfolio</h1>
-    <p>Hi, my name is Eason Cao.</p>
+    <section id="about-preview">
+        <h2>About Me</h2>
+        <p>I am a student learning programming and web development. I enjoy creating interactive websites and solving complex problems.</p>
+        <a href="about.html" class="btn">Read More</a>
+    </section>
 
+    <section id="projects-preview">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>C++ Search Program</h3>
+                <p>A program that implements search algorithms in C++.</p>
+            </div>
+            <div class="project-card">
+                <h3>Git Assignment</h3>
+                <p>Version control project demonstrating Git workflows.</p>
+            </div>
+        </div>
+        <a href="projects.html" class="btn">View All Projects</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Eason Cao. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
 </body>
 </html>
